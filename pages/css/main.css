@@ -1,0 +1,78 @@
+/**
+    We use css variables
+    support is listed here
+    [https://caniuse.com/#feat=css-variables]
+ */
+html {
+    --color-background: #e3e2da;
+    --color-title: #0f0a33;
+    --color-header: #0f0a33;
+    --color-content: #0f0a33;
+    --color-link: #ab2026;
+
+    --font-size-title: 27px;
+    --font-size-header: 18px;
+    --font-size-content: 18px;
+    --font-size-link: 18px;
+
+    --font-familly-general: 'DINOffc', serif;
+    --font-familly-title: 'DIN-Bold', serif;
+    --font-familly-header: 'DIN-Bold', serif;
+    --font-familly-content: 'DINOffc', serif;
+    --font-familly-link: 'DINOffc', serif;
+}
+
+@font-face {
+    font-family: 'DIN-Bold';
+    src: url("../fonts/DIN-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/DIN-Bold.woff") format("woff"), url("../fonts/DIN-Bold.ttf") format("truetype"), url("../fonts/DIN-Bold.svg#DIN-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DINOffc';
+    src: url("../fonts/DINOffc.eot?#iefix") format("embedded-opentype"), url("../fonts/DINOffc.woff") format("woff"), url("../fonts/DINOffc.ttf") format("truetype"), url("../fonts/DINOffc.svg#DINOffc") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--color-background);
+    margin: 20px;
+    font-family: var(--font-familly-general);
+}
+
+.title {
+    text-align: left;
+    color: var(--color-title);
+    font-size: var(--font-size-title);
+    font-family: var(--font-familly-title);
+    margin: 0;
+}
+
+.content {
+    color: var(--color-content);
+    font-size: var(--font-size-content);
+    font-family: var(--font-familly-content);
+    margin: 0 0;
+}
+
+.spacer {
+    width: 100%;
+    height: 16px;
+}
+
+.header {
+    text-align: left;
+    color: var(--color-header);
+    font-size: var(--font-size-header);
+    font-family: var(--font-familly-header);
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    color: var(--color-link);
+    font-size: var(--font-size-link);
+    font-family: var(--font-familly-link);
+    text-decoration: none;
+}
