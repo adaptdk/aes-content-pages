@@ -1,51 +1,79 @@
 <!doctype html>
-<html class="no-js" lang="da">
+<html lang="da">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
-  <title>Hjælp</title>
-  <link rel="stylesheet" href="css/main.css" media="screen">
-  <script type="text/javascript" src="js/modernizr-custom.js"></script>
-  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  <title>Spørgsmål og svar</title>
+  <link rel="stylesheet" href="css/general.css" media="screen">
+  <link rel="stylesheet" href="css/help.css">
 </head>
-<body class="app qa">
-<h2>Spørgsmål og svar</h2>
-<div class="question">
-  <span class="no">1</span>
-  <h4>Hvordan henter jeg mit medlemskort?</h4>
-  <p>Tryk på ikonet for medlemskortet øverst i højre hjørne.</p>
-  <p>Indtast derefter dit medlemsnummer, og vælg din fødselsdato.</p>
-</div>
-<div class="question">
-  <span class="no">2</span>
-  <h4>Hvor finder jeg mit medlemsnummer?</h4>
-  <p>Dit medlemsnummer står på dit medlemskort. Vi sender medlemskortet til dig 1 gang om året.</p>
-  <div class="membercard"></div>
-</div>
-<div class="question">
-  <span class="no">3</span>
-  <h4>Hvorfor kan jeg ikke hente mit medlemskort?</h4>
-  <p>Tjek, at du har indtastet korrekt medlemsnummer og valgt din fødselsdato.</p>
-  <p>Kontakt medlemsservice for at få hjælp, hvis det stadig ikke lykkes.</p>
-  <p>Se <a href="contact.html">kontaktoplysninger</a></p>
-</div>
-<div class="question">
-  <span class="no">4</span>
-  <h4>Der er forkerte oplysninger på mit medlemskort. Hvad gør jeg?</h4>
-  <p>Kontakt medlemsservice for at få hjælp.</p>
-  <p>Se <a href="contact.html">kontaktoplysninger</a></p>
-</div>
-<div class="question">
-  <span class="no">5</span>
-  <h4>Hvad sker der, hvis jeg fjerner mit medlemskort fra appen?</h4>
-  <p>Hvis du trykker på "Fjern medlemskort", vil dit medlemskort forsvinde.</p>
-  <p>Ønsker du at hente dit medlemskort ned i appen igen på et senere tidspunkt, skal du indtaste dit medlemsnummer og
-    vælge din fødselsdato endnu en gang.</p>
-  <p>Det er ikke nødvendigt at fjerne medlemskortet, hver gang du lukker appen.</p>
-</div>
-<h2>Fik du ikke svar på dit spørgsmål?</h2>
-<p>Læs mere på vores <a
-  href="https://www.aeldresagen.dk/tilbud-og-rabatter/app/faq-i-app?utm_source=app&utm_medium=app&utm_term=app-hjaelp">hjemmeside</a>
-</p>
+<body>
+<article>
+  <h1 class="title">Spørgsmål og svar</h1>
+
+  <br />
+
+  <div class="question">
+    <div class="question__title">
+      <span class="question__number">1</span>
+      <h4 class="question__header">HVORDAN HENTER JEG MIT MEDLEMSKORT?</h4>
+    </div>
+    <p class="content">Gå til menupunktet Medlemskort.
+      Indtast derefter dit medlemsnummer og din fødselsdato</p>
+  </div>
+
+  <div class="question">
+    <div class="question__title">
+      <span class="question__number">2</span>
+      <h4 class="question__header">HVOR FINDER JEG MIT MEDLEMSNUMMER?</h4>
+    </div>
+    <p class="content">Dit medlemsnummer står på dit medlemskort. Du kan også finde medlemsnummeret på breve og
+      nyhedsmails du modtager fra os</p>
+    <div class="question__image">
+      <img class="image" src="assets/membercard.svg" alt="Medlemskort">
+    </div>
+  </div>
+
+  <div class="question">
+    <div class="question__title">
+      <span class="question__number">3</span>
+      <h4 class="question__header">HVORFOR KAN JEG IKKE HENTE MIT MEDLEMSKORT?</h4>
+    </div>
+    <p class="content">Tjek, at du har indtastet korrekt medlemsnummer og valgt din fødselsdato.
+      Kontakt medlemsservice for at få hjælp, hvis det stadig ikke lykkes.
+    </p>
+    <a class="link" href="contact.html">Se kontaktoplysninger</a>
+  </div>
+
+  <div class="question">
+    <div class="question__title">
+      <span class="question__number">4</span>
+      <h4 class="question__header">DER ER FORKERTE OPLYSNINGER PÅ MIT MEDLEMSKORT. HVAD GØR JEG?</h4>
+    </div>
+    <p class="content">Kontakt medlemsservice for at få hjælp.
+      Se kontaktoplysninger</p>
+    <a class="link" href="contact.html">Se kontaktoplysninger</a>
+  </div>
+
+  <div class="question">
+    <div class="question__title">
+      <span class="question__number">5</span>
+      <h4 class="question__header">HVAD SKER DER, HVIS JEG FJERNER MIT MEDLEMSKORT FRA APPEN?</h4>
+    </div>
+    <p class="content">
+      Hvis du trykker på "Fjern medlemskort", vil dit medlemskort forsvinde.
+      Ønsker du at hente dit medlemskort ned i appen igen på et senere tidspunkt, skal du indtaste dit
+      medlemsnummer og vælge din fødselsdato endnu en gang.
+      Det er ikke nødvendigt at fjerne medlemskortet, hver gang du lukker appen.
+    </p>
+  </div>
+
+  <div class="question">
+    <h2 class="header">Fik du ikke svar på dit spørgsmål?</h2>
+    <p class="content">Læs mere på vores</p>
+    <a class="link"
+       href="https://www.aeldresagen.dk/tilbud-og-rabatter/app/faq-i-app?utm_source=app&utm_medium=app&utm_term=app-hjaelp">hjemmeside</a>
+  </div>
+</article>
 </body>
 </html>

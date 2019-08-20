@@ -4,10 +4,13 @@
     [https://caniuse.com/#feat=css-variables]
  */
 html {
+    --color-black: #0f0a33;
+    --color-white: #ffffff;
+
     --color-background: #e3e2da;
-    --color-title: #0f0a33;
-    --color-header: #0f0a33;
-    --color-content: #0f0a33;
+    --color-title: var(--color-black);
+    --color-header: var(--color-black);
+    --color-content: var(--color-black);
     --color-link: #ab2026;
 
     --font-size-title: 27px;
@@ -20,6 +23,8 @@ html {
     --font-familly-header: 'DIN-Bold', serif;
     --font-familly-content: 'DINOffc', serif;
     --font-familly-link: 'DINOffc', serif;
+
+    --margin-large: 30px;
 }
 
 @font-face {
@@ -28,6 +33,7 @@ html {
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'DINOffc';
     src: url("../fonts/DINOffc.eot?#iefix") format("embedded-opentype"), url("../fonts/DINOffc.woff") format("woff"), url("../fonts/DINOffc.ttf") format("truetype"), url("../fonts/DINOffc.svg#DINOffc") format("svg");
@@ -35,10 +41,19 @@ html {
     font-style: normal;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--color-background);
     margin: 20px;
     font-family: var(--font-familly-general);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
 }
 
 .title {
@@ -56,11 +71,6 @@ body {
     margin: 0 0;
 }
 
-.spacer {
-    width: 100%;
-    height: 16px;
-}
-
 .header {
     text-align: left;
     color: var(--color-header);
@@ -75,4 +85,9 @@ body {
     font-size: var(--font-size-link);
     font-family: var(--font-familly-link);
     text-decoration: none;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
 }
