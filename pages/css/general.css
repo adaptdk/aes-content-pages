@@ -18,11 +18,11 @@ html {
     --font-size-content: 18px;
     --font-size-link: 18px;
 
-    --font-familly-general: 'IBMPlexSans-', serif;
+    --font-familly-general: 'IBMPlexSans-Regular', serif;
     --font-familly-title: 'IBMPlexSans-Bold', serif;
     --font-familly-header: 'IBMPlexSans-Bold', serif;
-    --font-familly-content: 'IBMPlexSans-', serif;
-    --font-familly-link: 'IBMPlexSans-', serif;
+    --font-familly-content: 'IBMPlexSans-Regular', serif;
+    --font-familly-link: 'IBMPlexSans-Regular', serif;
 
     --margin-large: 30px;
 }
