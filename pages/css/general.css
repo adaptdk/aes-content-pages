@@ -3,6 +3,13 @@
     support is listed here
     [https://caniuse.com/#feat=css-variables]
  */
+
+ @supports (font: -apple-system-body) {
+    html {
+        font: -apple-system-body !important;
+    }   
+ }
+
 html {
     --color-black: #0f0a33;
     --color-white: #ffffff;
@@ -13,10 +20,11 @@ html {
     --color-content: var(--color-black);
     --color-link: #ab2026;
 
-    --font-size-title: 27px;
-    --font-size-header: 18px;
-    --font-size-content: 18px;
-    --font-size-link: 18px;
+    font-size: 16px;
+    --font-size-title: 1.6875rem;
+    --font-size-header: 1.125rem;
+    --font-size-content: 1.125rem;
+    --font-size-link: 1.125rem;
 
     --font-familly-general: 'IBMPlexSans-Regular', serif;
     --font-familly-title: 'IBMPlexSans-Bold', serif;
