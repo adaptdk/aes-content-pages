@@ -18,25 +18,25 @@ html {
     --font-size-content: 18px;
     --font-size-link: 18px;
 
-    --font-familly-general: 'DINOffc', serif;
-    --font-familly-title: 'DIN-Bold', serif;
-    --font-familly-header: 'DIN-Bold', serif;
-    --font-familly-content: 'DINOffc', serif;
-    --font-familly-link: 'DINOffc', serif;
+    --font-familly-general: 'IBMPlexSans-', serif;
+    --font-familly-title: 'IBMPlexSans-Bold', serif;
+    --font-familly-header: 'IBMPlexSans-Bold', serif;
+    --font-familly-content: 'IBMPlexSans-', serif;
+    --font-familly-link: 'IBMPlexSans-', serif;
 
     --margin-large: 30px;
 }
 
 @font-face {
-    font-family: 'DIN-Bold';
-    src: url("../fonts/DIN-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/DIN-Bold.woff") format("woff"), url("../fonts/DIN-Bold.ttf") format("truetype"), url("../fonts/DIN-Bold.svg#DIN-Bold") format("svg");
+    font-family: 'IBMPlexSans-Bold';
+    src: url("../fonts/IBMPlexSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/IBMPlexSans-Bold.woff") format("woff"), url("../fonts/IBMPlexSans-Bold.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'DINOffc';
-    src: url("../fonts/DINOffc.eot?#iefix") format("embedded-opentype"), url("../fonts/DINOffc.woff") format("woff"), url("../fonts/DINOffc.ttf") format("truetype"), url("../fonts/DINOffc.svg#DINOffc") format("svg");
+    font-family: 'IBMPlexSans-Regular';
+    src: url("../fonts/IBMPlexSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/IBMPlexSans-Regular.woff") format("woff"), url("../fonts/IBMPlexSans-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
