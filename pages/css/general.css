@@ -14,7 +14,7 @@ html {
     --color-black: #0f0a33;
     --color-white: #ffffff;
 
-    --color-background: #e3e2da;
+    --color-background: #e5e5e6;
     --color-title: var(--color-black);
     --color-header: var(--color-black);
     --color-content: var(--color-black);
